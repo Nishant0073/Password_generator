@@ -1,0 +1,54 @@
+<!-- Code By Nishant_0073 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Password Generator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p>
+        <h2 class="terminal">Nishant_0073 @ Kokru #</h2>
+        
+        <h2 id="password" >
+            PASSWORD GENEARTOR
+        </h2>
+    </p>
+ 
+    <div class="input">
+    <div class="row">
+    <div class="colomn">
+       <p>Select the password size:</p></br>
+    <select required id="size" style="width: 60%;">
+        <option value="14" >Select the size:</option>
+        <option value="10">10</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+      </select>
+    </div>
+
+    <div class="colomn">
+        <p>Select the Characters in the password:</p></br>
+        <input type="checkbox" id="SpeChar"  value="0">
+        <label for="SpeChar"> Special Characters</label><br>
+        <input type="checkbox" id="Digite" value="0">
+        <label for="Digite"> Digites</label><br>
+        <input type="checkbox" id="Alphabates" value="0">
+        <label for="Alphabates">Alphabates</label><br>
+    </div>
+    </div>
+</div>
+<button id="generate" onclick="getpassword()" style="font-family: 'Inconsolata', monospace;" value="Generate Password" > Generate Password </button>
+<h4 class="brand_name">Created by Nishant_0073 (Nishant Shingate)</h4>
+</body>
+</html>
