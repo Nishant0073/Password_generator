@@ -59,45 +59,67 @@ select,input
     font-size: 15px;
     font-family: 'Inconsolata', monospace;
     color:rgb(15, 238, 26);
-  }
+}
   
-  /* Clear floats after the columns */
-  .row:after {
+
+.row:after {
     content: "";
     align-content: center;
     display: table;
     clear: both;
-  }
-  .input{
+}
+
+
+button {
+  
+  margin-left: 40%;
+  margin-top: 3%;
+  padding: 1em 2.1em 1.1em;
+  border-radius: 3px;
+  color: #10ca28;
+  background-color: #3a16da;
+  display: inline-block;
+  background: #030303;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+button:hover, button:focus {
+  opacity: 0.8;
+}
+button:active {
+  -webkit-transform: scale(0.80);
+  -moz-transform: scale(0.80);
+  -ms-transform: scale(0.80);
+  -o-transform: scale(0.80);
+  transform: scale(0.80);
+}
+button.block {
+  display: block !important;
+}
+button.circular {
+border-radius: 50em !important;
+}
+
+
+
+.input{
     margin-left: 5%;
     margin-right: 5%;
     font-size: 15px;
-  }
+}
 
-  #generate{
-    border: black 10px;
-    border-radius: 3px;
-    background-color: cyan;
-    border-style: none;
-    margin-top: 5%;
-    padding: 20px;
-    width: 20%;
-    font-size: 20px;
-      margin-left: 40%;
-      margin-right: 40%;
-      color: black;
-      font-style: bold;
-  }
-  #generate:hover{
-      cursor: pointer;
+#name
+{
+     font-family: 'Marck Script', cursive;
+     position: fixed; 
+     width: 100%; 
+     margin-left: 40%;
+     color: rgb(15, 238, 26);
+     font-size: 10px;
+}
 
-  }
- footer
-  {
-       font-family: 'Marck Script', cursive;
-       position: absolute; 
-       width: 100%; 
-       color: rgb(15, 238, 26);
-       font-size: 10px;
-       text-align: center;
-  }
