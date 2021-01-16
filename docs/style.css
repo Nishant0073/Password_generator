@@ -92,14 +92,12 @@ select,input
       cursor: pointer;
 
   }
-  .brand_name
+ footer
   {
        font-family: 'Marck Script', cursive;
        position: absolute; 
-       bottom: 0; 
-       left: 0; 
        width: 100%; 
        color: rgb(15, 238, 26);
-       font-size: 20px;
+       font-size: 5px;
        text-align: center;
   }
